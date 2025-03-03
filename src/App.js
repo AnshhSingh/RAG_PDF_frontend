@@ -59,7 +59,7 @@ function App() {
     }
     setError('');
     setQueryLoading(true);
-    // Add user query to conversation view
+   
     setConversation(prev => [...prev, { role: 'user', text: query }]);
 
     try {
